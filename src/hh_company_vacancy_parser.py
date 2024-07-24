@@ -83,7 +83,3 @@ class HHVacancionParsing:
         return filter_vacancy
 
 
-if __name__ == '__main__':
-    list_my = ['101 Быстрый ремонт', '101 GROUP (ИП Берман Владимир Евгеньевич)']
-    hh = HHVacancionParsing(list_my)
-    pprint(hh.filter_vacancyes())
